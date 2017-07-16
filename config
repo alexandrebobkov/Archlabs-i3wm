@@ -456,7 +456,7 @@ exec --no-startup-id conky -c ~/.config/i3/system-overview
 
 #not workspace related
 
-# terminal 
+# terminal
 bindsym $mod+Return exec --no-startup-id termite;focus
 bindsym control+mod1+t exec --no-startup-id termite; focus
 
@@ -497,7 +497,7 @@ bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
 
 
 
-#workspace related 
+#workspace related
 
 #workspace 1 related
 bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;workspace 1;focus
@@ -855,10 +855,10 @@ colors {
         statusline #eeeeee
         separator  #666666
         #                     border  backgr. text
-        focused_workspace     #a9a9a9 #222222 #a9a9a9
-        active_workspace      #a9a9a9 #222222 #a9a9a9
-        inactive_workspace    #a9a9a9 #5f676a #a9a9a9
-        urgent_workspace      #4A4A4A #4A4A4A #a9a9a9
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
         }
 
     }
@@ -872,7 +872,7 @@ client.background       #242424 #242424 #242424
 client.focused          #4A4A4A #4A4A4A #e5e5e5 #4A4A4A
 client.unfocused        #222222 #222222 #aaaaaa #222222
 client.focused_inactive #222222 #222222 #a9a9a9 #222222
-client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
+client.urgent           #d42121 #d42121 #f7f7f7 #d42121
 
 
 #################################################################
@@ -1022,4 +1022,3 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 
 # get the mouse out of the way with unclutter
 #exec --no-startup-id unclutter
-
