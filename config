@@ -582,6 +582,7 @@ for_window [class="Imagewriter"] floating enable
 for_window [class="Font-manager"] floating enable
 for_window [class="Nitrogen"] floating disable
 for_window [class="Pavucontrol"] floating disable
+for_window [class="Peek"] floating enable
 for_window [class="^Skype$"] floating enable
 for_window [class="^Spotify$"] floating disable
 for_window [class="System-config-printer.py"] floating enable
