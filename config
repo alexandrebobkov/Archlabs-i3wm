@@ -397,6 +397,7 @@ for_window [class="Vivaldi-snapshot"] focus
 
 #text-editor
 exec --no-startup-id geany
+#exec --no-startup-id atom
 
 #file manager
 exec --no-startup-id thunar
@@ -518,6 +519,7 @@ bindsym control+mod1+g exec --no-startup-id chromium;workspace 1;focus
 
 #workspace 2 related
 bindsym $mod+F2 exec --no-startup-id geany;workspace 2;focus
+#bindsym $mod+F2 exec --no-startup-id atom;workspace 2;focus
 bindsym control+mod1+w exec --no-startup-id geany;workspace 2;focus
 
 #workspace 3 related
