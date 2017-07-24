@@ -348,7 +348,7 @@ font pango:Noto Mono Regular 13
 
 # Workspace 1 browser related
 assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
-assign [class="Chromium|Google-chrome"]                                     → 1
+assign [class="Chromium|Google-chrome"]                                             → 1
 
 # Workspace 2 text editor related
 assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 2
@@ -400,7 +400,6 @@ exec --no-startup-id geany
 
 #file manager
 exec --no-startup-id thunar
-#exec thunar --daemon &
 
 #Mail clients
 #exec --no-startup-id evolution
@@ -452,15 +451,12 @@ exec --no-startup-id conky -c ~/.config/i3/system-overview
 
 
 #####################################################################################################################
-#################                                system applications                                #################
+#################                                 system applications                               #################
 #####################################################################################################################
-
 
 exec --no-startup-id thunar --daemon &
 exec --no-startup-id xfce4-power-manager &
 exec --no-startup-id xfsettingsd &
-
-
 
 
 #####################################################################################################################
