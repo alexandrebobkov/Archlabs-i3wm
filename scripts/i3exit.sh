@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# Date    : 24/07/2017
+# Version : v5.0.0
+
 case "$1" in
     lock)
         slimlock

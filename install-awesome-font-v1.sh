@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+# Date    : 24/07/2017
+# Version : v5.0.0
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -33,20 +36,20 @@ else
 		packer -S --noconfirm --noedit  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
-		
+
 		echo "Installing with pacaur"
 		pacaur -S --noconfirm --noedit  $package
-		 	
+
 	elif pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-			  	
+
 	fi
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then
-	
+
 	echo "################################################################"
 	echo "#########  "$package" has been installed"
 	echo "################################################################"
